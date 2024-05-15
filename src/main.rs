@@ -1,3 +1,8 @@
+// To Do List:
+// 
+// Create the scanner
+mod asst;
 fn main() {
-    println!("Hello, world!");
+    let val = asst::lexer::Tokens;
+    println!("{:?}",val.Keywords);
 }
